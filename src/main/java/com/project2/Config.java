@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Config {
     
-    public static WebDriver comfiguration()
+    public static WebDriver configuration()
     {
         System.setProperty("webdriver.chrome.driver", "E:\\Chrome Driver Testing\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
