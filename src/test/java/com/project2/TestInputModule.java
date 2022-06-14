@@ -14,7 +14,7 @@ public class TestInputModule {
 
         InputModule inputModule=new InputModule();
         driver.findElement(inputModule.el1).click();
-        WebElement ele0=driver.findElement(By.xpath("//input[@id='fullName']"));
+        WebElement ele0=driver.findElement(inputModule.fullName);
         ele0.sendKeys("Bibhu Prasad Sahu");
         inputModule.enterTab(ele0);
         WebElement ele1=driver.findElement(By.xpath("//input[@id='join']"));
