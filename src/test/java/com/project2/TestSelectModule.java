@@ -2,7 +2,7 @@ package com.project2;
 
 import java.util.List;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
