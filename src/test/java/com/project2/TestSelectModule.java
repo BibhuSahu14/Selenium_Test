@@ -3,13 +3,13 @@ package com.project2;
 import java.util.List;
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class TestSelectModule
+public class TestSelectModule extends AppTest
 {
-    WebDriver driver=Config.configuration();
+    
     @Test
     public void select()
     {

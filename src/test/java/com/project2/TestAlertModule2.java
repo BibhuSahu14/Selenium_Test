@@ -1,11 +1,10 @@
 package com.project2;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class TestAlertModule2 {
+public class TestAlertModule2 extends AppTest{
     
-    WebDriver driver=Config.configuration();
+    
     @Test
     public void alert()
     {

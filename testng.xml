@@ -6,10 +6,10 @@
 			</run>     
 		</groups>      -->
 		<classes>       
-			<class name="com.project2.TestAlertModuleWithTestNg" />
+			<class name="com.project2.TestSelectModule" />
             <class name="com.project2.TestButtonModule" />
             <class name="com.project2.TestInputModule" />
-            <class name="com.project2.TestSelectModule" />
+            <class name="com.project2.TestAlertModuleWithTestNg" />
 		</classes>   
 	</test> 
 </suite> 

@@ -2,12 +2,12 @@ package com.project2;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.Rectangle;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.Color;
 
-public class TestButtonModule {
-    WebDriver driver=Config.configuration();
+public class TestButtonModule extends AppTest {
+
     @Test
     public void button()
     {

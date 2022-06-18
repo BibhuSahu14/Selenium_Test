@@ -1,20 +1,37 @@
 package com.project2;
 
-import static org.junit.Assert.assertTrue;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
-import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
+    public static WebDriver driver;
+    @BeforeSuite
+    public void initializedDriver()
     {
-        assertTrue( true );
+        driver=Config.configuration();
+
     }
+    @AfterMethod
+    public void afterClass()
+    {
+        driver.navigate().back();
+    }
+    @AfterSuite
+    public void closeDriver()
+    {
+        if(driver!=null)
+        {
+            driver.close();
+        }
+        
+    }
+    
 }

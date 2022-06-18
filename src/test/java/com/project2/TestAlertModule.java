@@ -1,11 +1,10 @@
 package com.project2;
 
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
 
-public class TestAlertModule {
+public class TestAlertModule extends AppTest{
     
-    WebDriver driver=Config.configuration();
+    
     @Test
     public void alert()
     {

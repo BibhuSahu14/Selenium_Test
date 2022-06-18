@@ -1,11 +1,11 @@
 package com.project2;
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 
-public class TestInputModule {
-    WebDriver driver=Config.configuration();
+public class TestInputModule extends AppTest{
+   
     @Test
     public void input()
     {
